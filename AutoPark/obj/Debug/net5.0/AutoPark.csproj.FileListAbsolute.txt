@@ -53,9 +53,7 @@ C:\Users\ivang\source\repos\AutoPark\AutoPark\obj\Debug\net5.0\scopedcss\bundle\
 C:\Users\ivang\source\repos\AutoPark\AutoPark\obj\Debug\net5.0\AutoPark.TagHelpers.input.cache
 C:\Users\ivang\source\repos\AutoPark\AutoPark\obj\Debug\net5.0\AutoPark.TagHelpers.output.cache
 C:\Users\ivang\source\repos\AutoPark\AutoPark\obj\Debug\net5.0\AutoPark.RazorCoreGenerate.cache
-C:\Users\ivang\source\repos\AutoPark\AutoPark\obj\Debug\net5.0\Razor\Views\Home\Car.cshtml.g.cs
 C:\Users\ivang\source\repos\AutoPark\AutoPark\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\ivang\source\repos\AutoPark\AutoPark\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\ivang\source\repos\AutoPark\AutoPark\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\ivang\source\repos\AutoPark\AutoPark\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\ivang\source\repos\AutoPark\AutoPark\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -70,3 +68,6 @@ C:\Users\ivang\source\repos\AutoPark\AutoPark\obj\Debug\net5.0\ref\AutoPark.dll
 C:\Users\ivang\source\repos\AutoPark\AutoPark\obj\Debug\net5.0\AutoPark.pdb
 C:\Users\ivang\source\repos\AutoPark\AutoPark\obj\Debug\net5.0\AutoPark.genruntimeconfig.cache
 C:\Users\ivang\source\repos\AutoPark\AutoPark\obj\Debug\net5.0\Razor\Views\Home\AddCar.cshtml.g.cs
+C:\Users\ivang\source\repos\AutoPark\AutoPark\obj\Debug\net5.0\Razor\Views\Home\Cars.cshtml.g.cs
+C:\Users\ivang\source\repos\AutoPark\AutoPark\obj\Debug\net5.0\Razor\Views\Home\Drivers.cshtml.g.cs
+C:\Users\ivang\source\repos\AutoPark\AutoPark\obj\Debug\net5.0\Razor\Views\Home\AddDriver.cshtml.g.cs

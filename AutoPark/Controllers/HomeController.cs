@@ -26,14 +26,9 @@ namespace AutoPark.Controllers
             return View(db.Cars.ToList());
         }
         
-        public IActionResult Car()
+        public IActionResult Cars()
         {
             return View(db.Cars.ToList());
-        }
-        
-        public IActionResult Privacy()
-        {
-            return View();
         }
 
         [HttpGet]
@@ -47,7 +42,7 @@ namespace AutoPark.Controllers
         {
             db.Cars.Add(car);
             db.SaveChanges();
-            return Redirect("~/Home/Car");
+            return Redirect("~/Home/Cars");
         }
 
         [HttpGet]
@@ -55,7 +50,33 @@ namespace AutoPark.Controllers
         {
             db.Cars.Remove(db.Cars.Find(id));
             db.SaveChanges();
-            return Redirect("~/Home/Car");
+            return Redirect("~/Home/Cars");
+        }
+        
+        public IActionResult AddDriver()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult AddDriver(Driver driver)
+        {
+            db.Drivers.Add(driver);
+            db.SaveChanges();
+            return Redirect("~/Home/Drivers");
+        }
+
+        [HttpGet]
+        public IActionResult DeleteDriver(int id)
+        {
+            db.Drivers.Remove(db.Drivers.Find(id));
+            db.SaveChanges();
+            return Redirect("~/Home/Drivers");
+        }
+
+        public IActionResult Drivers()
+        {
+            return View(db.Drivers.ToList());
         }
     }
 }
