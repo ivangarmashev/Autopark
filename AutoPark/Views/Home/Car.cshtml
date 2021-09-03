@@ -1,0 +1,33 @@
+﻿@model IEnumerable<AutoPark.Models.Car>
+@{
+    ViewData["Title"] = "Cars";
+    // Layout = null;
+}
+<!DOCTYPE html>
+ 
+<html>
+<head>
+    <title>Cars</title>
+</head>
+<body>
+@* <h3>Cars</h3> *@
+<table>
+    <tr>
+        <td>Model</td>
+        <td>Odometer</td>
+        <td>Horse power</td>
+        <td></td>
+    </tr>
+    @foreach (var car in Model)
+    {
+        <tr>
+            <td>@car.Model</td>
+            <td>@car.Odometer</td>
+            <td>@car.HorsePower</td>
+            <td><a href="~/Home/DeleteCar/@car.Id">Удалить</a></td>
+        </tr>
+    }
+</table>
+<a href="~/Home/AddCar">Добавить</a>
+</body>
+</html>
