@@ -27,7 +27,7 @@ namespace AutoPark
         {
             string connection = Configuration.GetConnectionString("DefaultConnection");
             string connectionNpg = Configuration.GetConnectionString("Postgres");
-            services.AddDbContext<CarContext>(options => options.UseNpgsql(connectionNpg));
+            services.AddDbContext<CarContext>(options => options.UseNpgsql(connection));
             services.AddControllersWithViews();
         }
 
